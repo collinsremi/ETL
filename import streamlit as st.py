@@ -91,7 +91,7 @@ if st.button("🔍 Compare Models"):
                         text-align:center; 
                         color:white; 
                         box-shadow: 0px 4px 10px rgba(0,0,0,0.3);'>
-                <h4 style='margin:0; color:#bb86fc;'>Linear Regression</h4>
+                <h4 style='margin:0; color:#bb86fc;'>Ridge Regression</h4>
                 <h2 style='margin:10px 0 0 0;'>{pred_ridge:.2f} MPa</h2>
             </div>
             """, 
@@ -108,7 +108,7 @@ if st.button("🔍 Compare Models"):
                         text-align:center; 
                         color:white; 
                         box-shadow: 0px 4px 10px rgba(0,0,0,0.3);'>
-                <h4 style='margin:0; color:#bb86fc;'>Linear Regression</h4>
+                <h4 style='margin:0; color:#bb86fc;'>Polynomial Regression</h4>
                 <h2 style='margin:10px 0 0 0;'>{pred_poly:.2f} MPa</h2>
             </div>
             """, 
