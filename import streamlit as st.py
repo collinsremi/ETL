@@ -65,55 +65,55 @@ if st.button("🔍 Compare Models"):
     col1, col2, col3 = st.columns(3)
 
     with col1:
-    st.markdown(
-        f"""
-        <div style='background-color:#1e1e1e; 
-                    padding:20px; 
-                    border-radius:12px; 
-                    border: 1px solid #333333; 
-                    text-align:center; 
-                    color:white; 
-                    box-shadow: 0px 4px 10px rgba(0,0,0,0.3);'>
-            <h4 style='margin:0; color:#bb86fc;'>Linear Regression</h4>
-            <h2 style='margin:10px 0 0 0;'>{pred_mlr:.2f} MPa</h2>
-        </div>
-        """, 
-        unsafe_allow_html=True
-    )
+        st.markdown(
+            f"""
+            <div style='background-color:#1e1e1e; 
+                        padding:20px; 
+                        border-radius:12px; 
+                        border: 1px solid #333333; 
+                        text-align:center; 
+                        color:white; 
+                        box-shadow: 0px 4px 10px rgba(0,0,0,0.3);'>
+                <h4 style='margin:0; color:#bb86fc;'>Linear Regression</h4>
+                <h2 style='margin:10px 0 0 0;'>{pred_mlr:.2f} MPa</h2>
+            </div>
+            """, 
+            unsafe_allow_html=True
+        )
 
     with col2:
-    st.markdown(
-        f"""
-        <div style='background-color:#1e1e1e; 
-                    padding:20px; 
-                    border-radius:12px; 
-                    border: 1px solid #333333; 
-                    text-align:center; 
-                    color:white; 
-                    box-shadow: 0px 4px 10px rgba(0,0,0,0.3);'>
-            <h4 style='margin:0; color:#bb86fc;'>Linear Regression</h4>
-            <h2 style='margin:10px 0 0 0;'>{pred_ridge:.2f} MPa</h2>
-        </div>
-        """, 
-        unsafe_allow_html=True
-    )
+        st.markdown(
+            f"""
+            <div style='background-color:#1e1e1e; 
+                        padding:20px; 
+                        border-radius:12px; 
+                        border: 1px solid #333333; 
+                        text-align:center; 
+                        color:white; 
+                        box-shadow: 0px 4px 10px rgba(0,0,0,0.3);'>
+                <h4 style='margin:0; color:#bb86fc;'>Linear Regression</h4>
+                <h2 style='margin:10px 0 0 0;'>{pred_ridge:.2f} MPa</h2>
+            </div>
+            """, 
+            unsafe_allow_html=True
+        )
 
     with col3:
-    st.markdown(
-        f"""
-        <div style='background-color:#1e1e1e; 
-                    padding:20px; 
-                    border-radius:12px; 
-                    border: 1px solid #333333; 
-                    text-align:center; 
-                    color:white; 
-                    box-shadow: 0px 4px 10px rgba(0,0,0,0.3);'>
-            <h4 style='margin:0; color:#bb86fc;'>Linear Regression</h4>
-            <h2 style='margin:10px 0 0 0;'>{pred_poly:.2f} MPa</h2>
-        </div>
-        """, 
-        unsafe_allow_html=True
-    )
+        st.markdown(
+            f"""
+            <div style='background-color:#1e1e1e; 
+                        padding:20px; 
+                        border-radius:12px; 
+                        border: 1px solid #333333; 
+                        text-align:center; 
+                        color:white; 
+                        box-shadow: 0px 4px 10px rgba(0,0,0,0.3);'>
+                <h4 style='margin:0; color:#bb86fc;'>Linear Regression</h4>
+                <h2 style='margin:10px 0 0 0;'>{pred_poly:.2f} MPa</h2>
+            </div>
+            """, 
+            unsafe_allow_html=True
+        )
 
     st.divider()
 
